@@ -27,4 +27,3 @@ POST
 
 ![image](https://github.com/srss-pocs/springboot-kafka-integration/assets/145287517/61fd4ab2-bfa1-4e67-bd76-02c0921094fc)
 
-
