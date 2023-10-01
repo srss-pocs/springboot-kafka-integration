@@ -1,4 +1,4 @@
-package com.example.kafka.producer.controller;
+package com.example.kafka.controller;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.kafka.producer.dto.Customer;
-import com.example.kafka.producer.service.PublisherService;
+import com.example.kafka.dto.Customer;
+import com.example.kafka.service.PublisherService;
 
 @RestController
 @RequestMapping("/api/kafka")

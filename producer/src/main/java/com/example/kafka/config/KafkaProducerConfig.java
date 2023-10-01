@@ -1,4 +1,4 @@
-package com.example.kafka.producer.config;
+package com.example.kafka.config;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -49,7 +49,7 @@ public class KafkaProducerConfig {
     }
 
     @Bean
-    public KafkaTemplate<String,Object> kafkaTemplate(){
+    KafkaTemplate<String, Object> kafkaTemplate(){
         return new KafkaTemplate<>(producerFactory());
     }
 

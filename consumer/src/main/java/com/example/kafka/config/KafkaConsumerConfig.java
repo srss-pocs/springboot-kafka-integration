@@ -1,4 +1,4 @@
-package com.example.kafka.consumer.config;
+package com.example.kafka.config;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
@@ -27,7 +27,7 @@ public class KafkaConsumerConfig {
 		props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, kafkaServerUrl);
 		props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
 		props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, JsonDeserializer.class);
-		props.put(JsonDeserializer.TRUSTED_PACKAGES, "com.example.kafka.consumer.dto");
+		props.put(JsonDeserializer.TRUSTED_PACKAGES, "com.example.kafka.dto");
 		return props;
 	}
 

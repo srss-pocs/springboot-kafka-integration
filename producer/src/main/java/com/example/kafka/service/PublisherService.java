@@ -1,4 +1,4 @@
-package com.example.kafka.producer.service;
+package com.example.kafka.service;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -8,7 +8,7 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;
 import org.springframework.stereotype.Service;
 
-import com.example.kafka.producer.dto.Customer;
+import com.example.kafka.dto.Customer;
 
 @Service
 public class PublisherService {

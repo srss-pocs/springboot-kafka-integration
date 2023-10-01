@@ -8,8 +8,8 @@
 		<version>3.1.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example.kafka</groupId>
-	<artifactId>consumer</artifactId>
+	<groupId>com.example</groupId>
+	<artifactId>kafka</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>consumer</name>
 	<description>Demo project for Spring Boot</description>
